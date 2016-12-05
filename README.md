@@ -40,11 +40,7 @@ irb > CssBeautify.beautify("menu{color:red} navigation{background-color:#333}")
  => "menu {\n    color: red\n}\nnavigation {\n    background-color: #333\n}"
 ```
 
-## Using cssbeautify() function ##
-
-Since CSS Beautify is written in pure JavaScript, it can run anywhere that JavaScript can run.
-
-The API is very simple:
+## Using CssBeautify ##
 
 ```ruby
 result = CssBeautify.beautify(style, options);
