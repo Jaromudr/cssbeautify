@@ -55,5 +55,10 @@ result = CssBeautify.beautify(style, options);
 Example call:
 
 ```ruby
-beautified = CssBeautify.beautify('menu{opacity:.7}', indent: '  ', openbrace: 'separate-line', autosemicolon: true)
+beautified = CssBeautify.beautify(
+  'menu{opacity:.7}', 
+  indent: '  ', 
+  openbrace: 'separate-line', 
+  autosemicolon: true
+)
 ```
